@@ -1,0 +1,20 @@
+[
+  {
+    "id": "cotton-01",
+    "crop": "Cotton",
+    "category": "Pest Management",
+    "title": "Integrated Management of Pink Bollworm in Cotton",
+    "content": "Pink Bollworm (Pectinophora gossypiella) attacks squares, flowers (rosetted flowers), and bolls resulting in stained lint and premature boll drop. Install pheromone traps with gossyplure septa @ 5 traps/acre for pest monitoring and 8-10 traps/acre for mass trapping at 45 DAS. When trap catches exceed 8 moths/trap/night for 3 consecutive days or 10% damaged green bolls, spray Emamectin Benzoate 5% SG @ 5g/10L water (100g/acre) or Chlorantraniliprole 18.5% SC @ 3ml/10L water. In late season, spray Profenophos 50% EC @ 2 ml/L. Avoid synthetic pyrethroids early in the season to prevent resurgence of whitefly.",
+    "source": "ICAR-Central Institute for Cotton Research (CICR) Nagpur",
+    "keywords": ["cotton", "pink bollworm", "gulabi sundi", "pheromone trap", "emamectin", "kapas"]
+  },
+  {
+    "id": "cotton-02",
+    "crop": "Cotton",
+    "category": "Sucking Pest Control",
+    "title": "Whitefly, Aphids and Jassids Control in Cotton",
+    "content": "Sucking pests damage cotton from early vegetative stages. Whitefly (Bemisia tabaci) transmits Cotton Leaf Curl Virus (CLCuV). Install yellow sticky traps @ 10-15 traps/acre. If nymphs exceed 6-8 per leaf, spray Flonicamid 50% WG @ 80g/acre or Pyriproxyfen 10% EC @ 400-500 ml/acre or Spiromesifen 22.9% SC @ 200 ml/acre. For Jassids/leafhoppers causing leaf margin curling, spray Dinotefuran 20% SG @ 60g/acre or Flonicamid 50% WG @ 80g/acre. Alternate chemical groups to avoid resistance.",
+    "source": "CICR Nagpur & State Agricultural University Advisories",
+    "keywords": ["cotton", "whitefly", "jassid", "aphid", "flonicamid", "leaf curl", "kapas"]
+  }
+]

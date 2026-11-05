@@ -1,0 +1,15 @@
+# Core dependencies (Zero heavy requirements needed for default fast mode!)
+# The application runs out-of-the-box on standard Python 3.8+
+
+# Optional Frontend UI (for Streamlit dashboard)
+streamlit>=1.28.0
+
+# Optional Machine Learning / Hugging Face pipeline (for local IndicTrans2 & AgriParam GPU weights)
+# torch>=2.1.0
+# transformers>=4.38.0
+# accelerate>=0.27.0
+# sentencepiece>=0.1.99
+# protobuf>=3.20.0
+
+# Optional Testing
+pytest>=7.4.0

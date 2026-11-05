@@ -1,0 +1,20 @@
+[
+  {
+    "id": "veg-01",
+    "crop": "Tomato",
+    "category": "Pest & Viral Disease",
+    "title": "Tomato Leaf Curl Virus (ToLCV) and Whitefly Vector Management",
+    "content": "Tomato Leaf Curl Virus causes severe curling, puckering, stunting of plants, and reduced fruit set. The virus is vector-transmitted by Silverleaf Whitefly (Bemisia tabaci). There is no curative chemical once a plant is virally infected; infected rogue plants must be uprooted and buried immediately. To control the whitefly vector: 1. Raise nursery under 40-mesh insect-proof nylon net; 2. Place yellow sticky traps @ 15-20 traps/acre; 3. Spray Imidacloprid 17.8% SL @ 0.3 ml/L (60 ml/acre) or Acetamiprid 20% SP @ 0.4g/L or Cyantraniliprole 10.26% OD @ 1.8 ml/L. Spray Neem seed kernel extract (NSKE 5%) or Neem oil (1500 ppm) @ 3-5 ml/L at early vegetative stage.",
+    "source": "ICAR-Indian Institute of Horticultural Research (IIHR) Bengaluru",
+    "keywords": ["tomato", "leaf curl", "whitefly", "tolcv", "yellow sticky trap", "imidacloprid", "tamatar"]
+  },
+  {
+    "id": "veg-02",
+    "crop": "Tomato",
+    "category": "Fungal Diseases & Disorders",
+    "title": "Tomato Early Blight, Late Blight and Blossom End Rot",
+    "content": "Early Blight (Alternaria solani) causes concentric rings (target board spots) on lower leaves first. Spray Mancozeb 75% WP @ 2.5g/L or Azoxystrobin + Difenoconazole @ 1 ml/L. Late Blight (Phytophthora infestans) shows water-soaked lesions during humid cool weather; spray Dimethomorph 50% WP (1g/L) or Cymoxanil + Mancozeb (2g/L). Blossom End Rot is a physiological disorder (black sunken spots on bottom of fruits) caused by Calcium deficiency induced by irregular irrigation. Ensure consistent soil moisture and foliar spray Calcium Nitrate @ 5g/L during early fruit development.",
+    "source": "IIHR Bengaluru Horticulture Advisory",
+    "keywords": ["tomato", "early blight", "late blight", "blossom end rot", "calcium", "mancozeb"]
+  }
+]

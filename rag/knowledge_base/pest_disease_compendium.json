@@ -1,0 +1,29 @@
+[
+  {
+    "id": "comp-01",
+    "crop": "Mustard / Rapeseed",
+    "category": "Pest Management",
+    "title": "Mustard Aphid (Lipaphis erysimi) Control",
+    "content": "Mustard aphids congregate on inflorescence, tender stems, and pods sucking sap, causing curling and reducing oil content. Economic Threshold Level (ETL) is 20-25 aphids per 10 cm terminal shoot or when 20% plants are infested. Early sowing (before October 20) helps crop escape peak aphid infestation. Chemical control: Spray Dimethoate 30% EC @ 1 ml/L or Thiamethoxam 25% WG @ 0.2g/L (40-50g/acre) or Imidacloprid 17.8% SL @ 0.3 ml/L. Avoid spraying during midday when honeybees are actively pollinating.",
+    "source": "ICAR-Directorate of Rapeseed-Mustard Research (DRMR) Bharatpur",
+    "keywords": ["mustard", "aphid", "sarson", "dimethoate", "thiamethoxam", "mahun"]
+  },
+  {
+    "id": "comp-02",
+    "crop": "Sugarcane",
+    "category": "Pest & Disease",
+    "title": "Sugarcane Early Shoot Borer and Red Rot Management",
+    "content": "Early Shoot Borer (Chilo infuscatellus) causes dead hearts in young cane that emit an offensive smell when pulled out. Practice earthing up at 45 days after planting. Apply Fipronil 0.3% G @ 10-12 kg/acre or Chlorantraniliprole 18.5% SC @ 150 ml/acre near cane base. Red Rot (Colletotrichum falcatum) causes drying of top leaves, longitudinal reddening of internal stalk with characteristic white transverse bands, and alcoholic smell. Red rot is strictly managed by disease-free setts, sett treatment with Carbendazim 50% WP (1g/L) for 15 minutes, resistant varieties (Co-0238, Co-86032), and burning of infected stubbles.",
+    "source": "ICAR-Sugarcane Breeding Institute (SBI) Coimbatore",
+    "keywords": ["sugarcane", "red rot", "shoot borer", "ganna", "fipronil", "carbendazim"]
+  },
+  {
+    "id": "comp-03",
+    "crop": "Potato / Onion",
+    "category": "Fungal & Thrips Control",
+    "title": "Onion Purple Blotch and Thrips Management",
+    "content": "Onion Thrips (Thrips tabaci) cause silvery white patches and curled leaves. Spray Fipronil 5% SC @ 1.5 ml/L or Spinetoram 11.7% SC @ 1 ml/L with a sticker/spreader (0.5 ml/L). Purple Blotch (Alternaria porri) forms elliptical brown-purple spots on leaves and flower stalks. Spray Mancozeb 75% WP @ 2.5g/L or Tebuconazole 25.9% EC @ 1 ml/L. Proper spacing and avoiding excessive nitrogen reduces both thrips and blotch severity.",
+    "source": "ICAR-Directorate of Onion and Garlic Research (DOGR) Pune",
+    "keywords": ["onion", "thrips", "purple blotch", "pyaz", "fipronil", "tebuconazole"]
+  }
+]

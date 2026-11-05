@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Kisan Mitra | AI Farmer Advisory Assistant</title>
+  <link rel="stylesheet" href="style.css">
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <div class="app-container">
+    <!-- Sidebar -->
+    <aside class="sidebar">
+      <div class="brand">
+        <span class="brand-icon">🌾</span>
+        <div>
+          <h2>Kisan Mitra AI</h2>
+          <span class="subtext">CS3235 Multimodal AI Project</span>
+        </div>
+      </div>
+
+      <div class="lang-selector-box">
+        <label for="langSelect">🌐 Target Language / भाषा</label>
+        <select id="langSelect">
+          <option value="hin_Deva">हिन्दी (Hindi)</option>
+          <option value="pan_Guru">ਪੰਜਾਬੀ (Punjabi)</option>
+          <option value="mar_Deva">मराठी (Marathi)</option>
+          <option value="tel_Telu">తెలుగు (Telugu)</option>
+          <option value="tam_Taml">தமிழ் (Tamil)</option>
+          <option value="eng_Latn">English (Agronomic)</option>
+        </select>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-btn active" onclick="switchTab('chat')">💬 Advisory Chat</button>
+        <button class="nav-btn" onclick="switchTab('fertilizer')">🧮 Fertilizer Calculator</button>
+        <button class="nav-btn" onclick="switchTab('mandi')">📈 Mandi & MSP Rates</button>
+        <button class="nav-btn" onclick="switchTab('eval')">📊 Benchmark & Eval</button>
+      </nav>
+
+      <div class="system-badge">
+        <div class="badge-title">System Architecture</div>
+        <div class="badge-item"><span>LLM:</span> BharatGen AgriParam</div>
+        <div class="badge-item"><span>Trans:</span> AI4Bharat IndicTrans2</div>
+        <div class="badge-item"><span>RAG:</span> Hybrid Dense+Sparse ICAR</div>
+        <div class="badge-item"><span>Guardrails:</span> Groundedness Active</div>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Chat Tab -->
+      <section id="chat-tab" class="tab-panel active">
+        <header class="panel-header">
+          <div>
+            <h1>🌾 Kisan Mitra Agricultural Assistant</h1>
+            <p>Verified ICAR/KVK Package of Practices • Multilingual Agronomic Guidance</p>
+          </div>
+          <div class="quick-chips">
+            <button class="chip" onclick="sendQuickQuery('गेहूं में पीली कुंगी (yellow rust) की दवा?')">🌾 पीली कुंगी (Wheat)</button>
+            <button class="chip" onclick="sendQuickQuery('कपास में गुलाबी सुंडी नियंत्रण?')">🐛 गुलाबी सुंडी (Cotton)</button>
+            <button class="chip" onclick="sendQuickQuery('पीएम किसान सम्मान निधि 6000?')">💰 PM-KISAN</button>
+          </div>
+        </header>
+
+        <div id="chat-stream" class="chat-stream">
+          <div class="message assistant-msg">
+            <div class="msg-avatar">🌾</div>
+            <div class="msg-body">
+              <p>नमस्ते किसान भाई! मैं आपका <strong>कृषिमित्र (AI Farmer Advisory Assistant)</strong> हूँ। आप मुझसे फसल सुरक्षा, कीटनाशक, खाद की मात्रा, सिंचाई समय या सरकारी कृषि योजनाओं के बारे में पूछ सकते हैं।</p>
+              <div class="msg-meta">
+                <span class="tag-icar">ICAR Verified</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="chat-input-bar">
+          <input type="text" id="userInput" placeholder="Ask in Hindi, Punjabi, Marathi, Telugu, Tamil, Hinglish or English..." onkeydown="if(event.key==='Enter') sendMessage()">
+          <button class="send-btn" onclick="sendMessage()">Send Advisory Query</button>
+        </div>
+      </section>
+
+      <!-- Fertilizer Calculator Tab -->
+      <section id="fertilizer-tab" class="tab-panel">
+        <header class="panel-header">
+          <h1>🧮 Agentic Tool: NPK Fertilizer & Dosage Calculator</h1>
+          <p>Calculates exact commercial bags of Urea, DAP, MOP, and Zinc Sulphate per acre.</p>
+        </header>
+
+        <div class="tool-form-card">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Crop</label>
+              <select id="calcCrop">
+                <option value="wheat">Wheat (गेहूं)</option>
+                <option value="paddy">Paddy / Rice (धान)</option>
+                <option value="cotton">Cotton (कपास)</option>
+                <option value="sugarcane">Sugarcane (गन्ना)</option>
+                <option value="mustard">Mustard (सरसों)</option>
+                <option value="tomato">Tomato (टमाटर)</option>
+                <option value="onion">Onion (प्याज)</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label>Land Acreage (Acres)</label>
+              <input type="number" id="calcAcres" value="2" min="0.5" max="100" step="0.5">
+            </div>
+            <div class="form-group">
+              <label>Soil Fertility Status</label>
+              <select id="calcSoil">
+                <option value="medium">Medium (Standard)</option>
+                <option value="low">Low (Deficient, +25%)</option>
+                <option value="high">High (Rich, -25%)</option>
+              </select>
+            </div>
+          </div>
+          <button class="primary-btn" onclick="calculateFertilizer()">Calculate Prescribed Fertilizer</button>
+        </div>
+
+        <div id="fertilizer-results" class="results-box" style="display:none;"></div>
+      </section>
+
+      <!-- Mandi Tab -->
+      <section id="mandi-tab" class="tab-panel">
+        <header class="panel-header">
+          <h1>📈 APMC Mandi Rates & Minimum Support Price (MSP)</h1>
+          <p>Official CACP Government declared MSP benchmarks and major APMC modal prices.</p>
+        </header>
+        <div class="tool-form-card">
+          <div class="form-row">
+            <div class="form-group">
+              <label>Commodity</label>
+              <select id="mandiCrop">
+                <option value="wheat">Wheat (गेहूं)</option>
+                <option value="paddy_common">Paddy Common (धान)</option>
+                <option value="cotton_medium_staple">Cotton Medium Staple (कपास)</option>
+                <option value="mustard">Mustard (सरसों)</option>
+                <option value="sugarcane_frp">Sugarcane FRP (गन्ना)</option>
+                <option value="gram_chana">Gram / Chana (चना)</option>
+              </select>
+            </div>
+          </div>
+          <button class="primary-btn" onclick="lookupMandi()">Lookup Official MSP</button>
+        </div>
+        <div id="mandi-results" class="results-box" style="display:none;"></div>
+      </section>
+
+      <!-- Evaluation Tab -->
+      <section id="eval-tab" class="tab-panel">
+        <header class="panel-header">
+          <h1>📊 CS3235 Evaluation & Benchmarking Dashboard</h1>
+          <p>Automated quantitative evaluation of 35 representative test cases with ground truth verification.</p>
+        </header>
+        <button class="primary-btn run-eval-btn" onclick="runBenchmark()">▶️ Run Full Quantitative Benchmark Suite</button>
+
+        <div id="eval-metrics" class="metrics-grid" style="display:none;"></div>
+        <div id="eval-table-container"></div>
+      </section>
+    </main>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>

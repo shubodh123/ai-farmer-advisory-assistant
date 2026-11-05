@@ -1,0 +1,29 @@
+[
+  {
+    "id": "scheme-01",
+    "crop": "All/Policy",
+    "category": "Direct Income Support",
+    "title": "PM-KISAN (Pradhan Mantri Kisan Samman Nidhi) Eligibility and Claim Process",
+    "content": "PM-KISAN provides Rs 6,000 per year income support to all landholding farmer families across India, payable in three equal installments of Rs 2,000 every 4 months (April-July, August-November, December-March) directly into Aadhaar-seeded bank accounts (DBT). Mandatory requirements: 1. Land ownership records in state revenue portal; 2. e-KYC completion via OTP on PM-KISAN portal or biometric at CSC; 3. Aadhaar-bank account linkage and NPCI seeding. Institutional landholders, serving/retired government employees, and income tax payees are excluded.",
+    "source": "Ministry of Agriculture & Farmers Welfare, GoI (pmkisan.gov.in)",
+    "keywords": ["pm-kisan", "pm kisan", "scheme", "subsidy", "installment", "6000", "ekyc", "aadhaar"]
+  },
+  {
+    "id": "scheme-02",
+    "crop": "All/Risk Management",
+    "category": "Crop Insurance",
+    "title": "PMFBY (Pradhan Mantri Fasal Bima Yojana) Coverage and Claim Intimation",
+    "content": "PMFBY provides comprehensive insurance against non-preventable natural risks (drought, flood, unseasonal hail, pests, cyclone). Premium paid by farmer: 2% of sum insured for Kharif foodgrain & oilseeds, 1.5% for Rabi crops, and 5% for annual commercial/horticultural crops; remaining premium is subsidized equally by Central and State Governments. In case of localized calamities (hailstorm, landslide, inundation, post-harvest losses up to 14 days), farmer must intimate loss within 72 hours via the Crop Insurance App, toll-free helpline 1800-180-1551, or nearest bank/agriculture office.",
+    "source": "PMFBY Operational Guidelines, Ministry of Agriculture & Farmers Welfare",
+    "keywords": ["pmfby", "crop insurance", "fasal bima", "claim", "premium", "loss intimation", "72 hours"]
+  },
+  {
+    "id": "scheme-03",
+    "crop": "All/Credit",
+    "category": "Institutional Credit",
+    "title": "Kisan Credit Card (KCC) Scheme and Interest Subvention",
+    "content": "Kisan Credit Card provides timely credit for crop production, post-harvest expenses, and farm maintenance. Baseline interest rate is 9%, but Government of India provides 2% interest subvention plus 3% prompt repayment incentive, reducing the effective interest rate to just 4% per annum for loans up to Rs 3 Lakh. Collateral-free limit is Rs 1.60 Lakh (extendable to Rs 3 Lakh for tie-up agreements). KCC is also extended to Animal Husbandry, Dairy, and Fisheries farmers up to Rs 2 Lakh.",
+    "source": "Reserve Bank of India (RBI) & NABARD Master Circular on KCC",
+    "keywords": ["kcc", "kisan credit card", "loan", "interest subvention", "4 percent", "credit limit", "collateral free"]
+  }
+]

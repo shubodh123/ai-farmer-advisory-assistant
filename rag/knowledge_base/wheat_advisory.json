@@ -1,0 +1,38 @@
+[
+  {
+    "id": "wheat-01",
+    "crop": "Wheat",
+    "category": "Cultivation & Sowing",
+    "title": "Wheat Sowing Time, Seed Rate and Varieties",
+    "content": "For timely sown irrigated wheat in North-Western and North-Eastern plains, the optimal sowing window is November 1 to November 15. For late-sown conditions, sowing can be done up to December 15. Recommended varieties include HD-2967, DBW-187 (Karan Vandana), DBW-303, and PBW-550. Seed rate for normal sowing with seed drill is 100 kg per hectare (40 kg per acre). For late sowing or broadcast sowing, increase seed rate by 20-25% to 125 kg/ha (50 kg/acre). Seed treatment with Trichoderma viride (4g/kg) or Carboxin + Thiram (Vitavax) at 2.5g/kg protects against loose smut and seedling blight.",
+    "source": "ICAR-Indian Institute of Wheat and Barley Research (IIWBR), Advisory Bulletin",
+    "keywords": ["wheat", "sowing", "seed rate", "HD-2967", "DBW-187", "seed treatment", "gehu"]
+  },
+  {
+    "id": "wheat-02",
+    "crop": "Wheat",
+    "category": "Nutrient Management",
+    "title": "Fertilizer Schedule for Irrigated Wheat",
+    "content": "Recommended NPK ratio for timely sown irrigated dwarf wheat is 120:60:40 kg/ha (or 50 kg Urea, 75 kg DAP, 35 kg MOP per acre). Apply all Phosphorus (DAP) and Potash (MOP) plus 1/3rd Nitrogen (Urea) at the time of final field preparation (basal dose). Top-dress remaining Nitrogen in two equal splits: 1/3rd at First Irrigation (Crown Root Initiation stage, 21-25 days after sowing) and 1/3rd at Second Irrigation (Tillering to Jointing stage, 40-45 days after sowing). In Zinc-deficient soils, apply 25 kg/ha Zinc Sulphate (21%) as basal dose. Do not mix Zinc Sulphate with DAP directly.",
+    "source": "ICAR Package of Practices for Rabi Crops",
+    "keywords": ["wheat", "fertilizer", "urea", "dap", "mop", "npk", "zinc sulphate", "top dress"]
+  },
+  {
+    "id": "wheat-03",
+    "crop": "Wheat",
+    "category": "Irrigation Management",
+    "title": "Critical Stages for Wheat Irrigation",
+    "content": "Wheat crop requires 4 to 6 irrigations depending on soil texture and winter rainfall. The most critical stages are: 1. Crown Root Initiation (CRI) at 20-25 DAS (Days After Sowing) - most critical, delay reduces yield drastically; 2. Tillering stage (40-45 DAS); 3. Late Jointing stage (60-65 DAS); 4. Flowering stage (80-85 DAS); 5. Milking stage (100-105 DAS); 6. Dough stage (115-120 DAS). If only one irrigation is available, apply at CRI stage. If two irrigations are available, apply at CRI and Flowering stages. Avoid heavy irrigation during windy days at dough stage to prevent lodging.",
+    "source": "PAU Ludhiana Agronomy Guidelines & ICAR",
+    "keywords": ["wheat", "irrigation", "critical stage", "CRI", "tillering", "flowering", "water"]
+  },
+  {
+    "id": "wheat-04",
+    "crop": "Wheat",
+    "category": "Pest & Disease Control",
+    "title": "Yellow Rust (Stripe Rust) and Termite Control in Wheat",
+    "content": "Yellow Rust (Puccinia striiformis) appears as bright yellow powdery stripes on leaf blades. At early detection, spray Propiconazole 25% EC (Tilt) @ 1 ml per litre of water (200 ml in 200 L water per acre) or Tebuconazole 25.9% EC @ 1 ml/L. Repeat after 15 days if rust progression continues. For Termites (Microtermes obesi), treat seed with Chlorpyrifos 20% EC @ 4 ml/kg seed before sowing. For standing crop attacked by termites, broadcast Chlorpyrifos 20% EC @ 1.5 L/acre mixed in 20-25 kg sand followed by light irrigation.",
+    "source": "ICAR-IIWBR Crop Protection Circular",
+    "keywords": ["wheat", "yellow rust", "stripe rust", "termites", "propiconazole", "chlorpyrifos", "peeli kungi"]
+  }
+]

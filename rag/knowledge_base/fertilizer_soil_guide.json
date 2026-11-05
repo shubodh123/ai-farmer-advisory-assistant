@@ -1,0 +1,20 @@
+[
+  {
+    "id": "soil-01",
+    "crop": "General/Soil Health",
+    "category": "Soil Testing & NPK Balancing",
+    "title": "Soil Health Card Interpretation and NPK Fertilizer Formulation",
+    "content": "A standard NPK ratio represents Nitrogen (N), Phosphorus (P2O5), and Potassium (K2O). One 50 kg bag of Urea supplies 23 kg Nitrogen (46% N). One 50 kg bag of DAP (Di-Ammonium Phosphate) supplies 9 kg Nitrogen (18% N) and 23 kg Phosphorus (46% P2O5). One 50 kg bag of MOP (Muriate of Potash) supplies 30 kg Potassium (60% K2O). For 1 acre of wheat needing 50 kg N, 25 kg P, 16 kg K: apply approx 55 kg DAP (provides 10kg N + 25kg P), 27 kg MOP (provides 16kg K), and 87 kg Urea (accounting for the 10kg N already supplied by DAP). Always soil-test before application. Over-application of Nitrogen increases pest susceptibility and causes crop lodging.",
+    "source": "Soil Health Division, Dept of Agriculture & Farmers Welfare, GoI",
+    "keywords": ["fertilizer", "soil health", "urea", "dap", "mop", "npk calculator", "soil test", "khad"]
+  },
+  {
+    "id": "soil-02",
+    "crop": "General/Micronutrients",
+    "category": "Zinc, Iron and Sulphur Deficiency Correction",
+    "title": "Diagnosis and Rectification of Micronutrient Deficiencies",
+    "content": "Zinc deficiency (Khaira disease in paddy, bleached bands on maize/wheat leaves) is corrected by applying Zinc Sulphate Heptahydrate (21% Zn) @ 25 kg/ha or Zinc Sulphate Monohydrate (33% Zn) @ 16 kg/ha to soil, or foliar spray of 0.5% Zinc Sulphate + 0.25% Slaked lime. Never mix zinc sulphate directly with DAP or SSP in tank mix as it precipitates insoluble zinc phosphate. Iron deficiency (interveinal chlorosis on youngest leaves in alkaline soils) is corrected by foliar spray of 1% Ferrous Sulphate (10g/L) + 0.1% citric acid. Sulphur deficiency causes yellowing of younger leaves; apply Gypsum or Bentonite Sulphur @ 20-25 kg/acre.",
+    "source": "ICAR-Indian Institute of Soil Science (IISS) Bhopal",
+    "keywords": ["micronutrients", "zinc deficiency", "khaira disease", "iron chlorosis", "sulphur", "gypsum"]
+  }
+]

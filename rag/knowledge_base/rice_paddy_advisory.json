@@ -1,0 +1,29 @@
+[
+  {
+    "id": "paddy-01",
+    "crop": "Rice/Paddy",
+    "category": "Nursery & Transplanting",
+    "title": "Paddy Nursery Raising and Transplanting Guidelines",
+    "content": "For transplanted paddy (PR-126, Pusa 1121, PB-1509), sow nursery from May 20 to June 15. Optimum seedling age for transplanting is 20-25 days (4-5 leaf stage). Avoid using over-aged seedlings (>30 days) as it reduces tillering. Plant 2-3 seedlings per hill at a spacing of 20 x 15 cm (33 hills/sq.m). Maintain 2-3 cm standing water during transplanting and establishment phase (first 7-10 days), then adopt Alternate Wetting and Drying (AWD) to save water and reduce methane emissions.",
+    "source": "ICAR-National Rice Research Institute (NRRI) Cuttack",
+    "keywords": ["paddy", "rice", "nursery", "transplanting", "pusa 1121", "PR-126", "AWD", "dhaan"]
+  },
+  {
+    "id": "paddy-02",
+    "crop": "Rice/Paddy",
+    "category": "Pest Management",
+    "title": "Brown Plant Hopper (BPH) and Stem Borer Management",
+    "content": "Brown Plant Hopper (Nilaparvata lugens) causes hopper burn (circular drying patches resembling fire scorch). Monitor basal parts of tillers. When BPH population reaches ETL (10-15 hoppers/hill), drain standing field water for 2-3 days. Spray Dinotefuran 20% SG @ 80g/acre or Pymetrozine 50% WG @ 120g/acre directed towards the base of stems. For Yellow Stem Borer (causing dead hearts at vegetative stage and white ears at panicle stage), apply Cartap Hydrochloride 4% G @ 7.5-10 kg/acre or spray Chlorantraniliprole 18.5% SC @ 60 ml/acre in 200 L water.",
+    "source": "ICAR-Indian Institute of Rice Research (IIRR) Hyderabad",
+    "keywords": ["rice", "paddy", "BPH", "brown plant hopper", "stem borer", "hopper burn", "dinotefuran", "cartap"]
+  },
+  {
+    "id": "paddy-03",
+    "crop": "Rice/Paddy",
+    "category": "Disease Management",
+    "title": "Rice Blast and Bacterial Leaf Blight (BLB) Control",
+    "content": "Rice Blast (Magnaporthe oryzae) produces spindle-shaped lesions with brown margins and grey centres on leaves, and black neck nodes. Spray Tricyclazole 75% WP @ 1g/L (120-150g/acre) or Isoprothiolane 40% EC @ 1.5 ml/L at first appearance. For Bacterial Leaf Blight (Xanthomonas oryzae) showing wavy yellow streaks from leaf tips downwards, avoid excess nitrogenous fertilizers; spray Streptocycline 6g + Copper Oxychloride 500g in 200 L water per acre. Drain field water to prevent water-borne bacterial spread.",
+    "source": "Directorate of Rice Development, Ministry of Agriculture",
+    "keywords": ["paddy", "rice", "blast", "bacterial leaf blight", "BLB", "tricyclazole", "streptocycline"]
+  }
+]
