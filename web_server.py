@@ -5,9 +5,15 @@ Can be executed immediately via:
     python3 web_server.py
 """
 import os
+import sys
+import signal
 import json
 import urllib.parse
 from http.server import HTTPServer, BaseHTTPRequestHandler
+from socketserver import TCPServer
+
+# Allow port reuse immediately upon restart
+TCPServer.allow_reuse_address = True
 from agent import FarmerAdvisoryAssistant
 from evaluate import run_evaluation
 
@@ -99,17 +105,35 @@ class FarmerAdvisoryHandler(BaseHTTPRequestHandler):
 
 def run(port: int = 8080):
     server_address = ("", port)
+    TCPServer.allow_reuse_address = True
     httpd = HTTPServer(server_address, FarmerAdvisoryHandler)
+
+    def shutdown_handler(signum, frame):
+        print("\n🌾 [Shutting down Kisan Mitra Web Server...]")
+        try:
+            httpd.server_close()
+        except Exception:
+            pass
+        sys.exit(0)
+
+    # Register OS-level signal traps for macOS/Linux
+    signal.signal(signal.SIGINT, shutdown_handler)
+    signal.signal(signal.SIGTERM, shutdown_handler)
+
     print("=" * 70)
     print(f"🌾 Kisan Mitra AI Web Server listening at: http://localhost:{port}")
     print("Zero external web dependencies required. Open in your browser!")
-    print("Press Ctrl+C to stop.")
+    print("Press Control+C (or Control+\\) to stop.")
     print("=" * 70)
     try:
-        httpd.serve_forever()
-    except KeyboardInterrupt:
+        httpd.serve_forever(poll_interval=0.5)
+    except (KeyboardInterrupt, SystemExit):
         print("\nServer shutting down gracefully.")
-        httpd.server_close()
+        try:
+            httpd.server_close()
+        except Exception:
+            pass
+        sys.exit(0)
 
 if __name__ == "__main__":
     run()
